@@ -16,13 +16,13 @@ const Header: React.FC = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled ? 'bg-[#1a0f0a]/95 backdrop-blur-md shadow-lg py-2' : 'bg-transparent py-4'
     }`}>
-      <div className="container mx-auto px-4 flex justify-between items-center">
+      <div className="container mx-auto px-3 sm:px-4 flex justify-between items-center">
         <a href="#" className="flex flex-col items-center">
-          <span className="font-royal text-2xl md:text-3xl text-gold tracking-widest font-bold">ITS LUCKNOWI</span>
-          <span className="text-[10px] uppercase tracking-[0.3em] text-white/70">Royal Mughlai Cuisine</span>
+          <span className="font-royal text-xl sm:text-2xl md:text-3xl text-gold tracking-widest font-bold">ITS LUCKNOWI</span>
+          <span className="text-[8px] sm:text-[9px] uppercase tracking-[0.2em] sm:tracking-[0.3em] text-white/70">Royal Mughlai</span>
         </a>
         
-        <div className="hidden md:flex space-x-8 items-center">
+        <div className="hidden md:flex space-x-6 lg:space-x-8 items-center">
           <a href="#about" className="hover:text-gold transition-colors font-medium">About</a>
           <a href="#menu" className="hover:text-gold transition-colors font-medium">Menu</a>
           <a href="#specialties" className="hover:text-gold transition-colors font-medium">Specialties</a>

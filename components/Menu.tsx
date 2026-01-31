@@ -64,12 +64,12 @@ const Menu: React.FC<MenuProps> = ({ onAddToCart, cart }) => {
   }, [filteredMenu]);
 
   return (
-    <section id="menu" className="py-24 bg-dark-brown">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-gold font-royal text-sm tracking-[0.3em] uppercase mb-4">Our Offering</h2>
-          <h3 className="font-royal text-4xl md:text-5xl text-white mb-4">Nawabi Digital Menu</h3>
-          <p className="text-white/60 max-w-xl mx-auto">Explore our curated selection of royal recipes. Add items to your order and message us directly on WhatsApp.</p>
+    <section id="menu" className="py-16 sm:py-24 bg-dark-brown">
+      <div className="container mx-auto px-3 sm:px-4">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-gold font-royal text-xs sm:text-sm tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-2 sm:mb-4">Our Offering</h2>
+          <h3 className="font-royal text-3xl sm:text-4xl md:text-5xl text-white mb-3 sm:mb-4">Nawabi Digital Menu</h3>
+          <p className="text-white/60 text-sm sm:text-base max-w-xl mx-auto px-2">Explore our curated selection of royal recipes. Add items to your order and message us directly on WhatsApp.</p>
         </div>
 
         <div className="sticky top-[64px] z-40 bg-dark-brown py-4 shadow-xl border-y border-gold/10">

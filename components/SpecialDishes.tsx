@@ -16,10 +16,10 @@ const SpecialDishes: React.FC = () => {
           <h3 className="font-royal text-4xl md:text-5xl text-white">The Royal Jewels</h3>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
           {SPECIALS.map((dish, idx) => (
             <div key={idx} className="group relative overflow-hidden bg-dark-brown border border-gold/10 rounded-sm">
-              <div className="h-64 overflow-hidden">
+              <div className="h-48 sm:h-56 md:h-64 overflow-hidden">
                 <img 
                   src={dish.img} 
                   alt={dish.name} 

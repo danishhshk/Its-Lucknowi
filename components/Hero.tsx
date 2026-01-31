@@ -19,11 +19,11 @@ const Hero: React.FC = () => {
           <span className="text-gold text-xs font-semibold tracking-widest uppercase">Since 1994 • Fort, Mumbai</span>
         </div>
         
-        <h1 className="font-royal text-5xl md:text-8xl text-white mb-6 leading-tight">
+        <h1 className="font-royal text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white mb-6 leading-tight">
           Its <span className="text-gold">Lucknowi</span>
         </h1>
         
-        <p className="font-serif-elegant text-xl md:text-3xl text-white/80 max-w-2xl mx-auto mb-10 leading-relaxed italic">
+        <p className="font-serif-elegant text-base sm:text-lg md:text-2xl lg:text-3xl text-white/80 max-w-2xl mx-auto mb-8 sm:mb-10 leading-relaxed italic px-4">
           "Authentic Lucknowi & Mughlai Cuisine in the Heart of Mumbai"
         </p>
 

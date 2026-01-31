@@ -63,4 +63,23 @@ A stunning restaurant website for IT'S LUCKNOWI, featuring authentic Royal Mughl
 ├── index.tsx
 └── vite.config.ts
 ```
-# Its-Lucknowi
+
+## Mobile Responsiveness
+
+The website is built with mobile-first responsive design:
+
+- **Header**: Responsive navigation with hamburger menu for mobile devices
+- **Hero Section**: Adapts to different screen sizes with optimized image scaling
+- **Gallery**: Grid layout that adjusts from 1 column on mobile to multiple columns on desktop
+- **Menu**: Touch-friendly buttons and text sizing for mobile users
+- **Contact Section**: Maps and contact form stack vertically on mobile, side-by-side on desktop
+- **Images**: Optimized and compressed for faster loading on mobile networks
+
+All components use Tailwind CSS breakpoints (sm, md, lg, xl) for seamless responsive behavior.
+
+## Browser Support
+
+- Chrome/Edge (latest)
+- Firefox (latest)
+- Safari (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)

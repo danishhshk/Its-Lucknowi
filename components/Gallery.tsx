@@ -19,9 +19,9 @@ const Gallery: React.FC = () => {
           <h3 className="font-royal text-4xl md:text-5xl text-white">Dine Like Royalty</h3>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
           {IMAGES.map((img, idx) => (
-            <div key={idx} className="h-64 overflow-hidden rounded-sm relative group cursor-pointer">
+            <div key={idx} className="h-48 sm:h-56 md:h-64 overflow-hidden rounded-sm relative group cursor-pointer">
               <img 
                 src={img} 
                 alt={`Gallery ${idx}`} 
