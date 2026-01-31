@@ -1,0 +1,7 @@
+{
+  "name": "Its Lucknowi - Royal Mughlai Dining",
+  "description": "Premium fine-dining experience in Fort, Mumbai, featuring authentic Lucknowi and Mughlai cuisine with a digital interactive menu and WhatsApp ordering.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
